@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>XR1 - GameCloud</title>
+    <title>XR_one - GameCloud</title>
 
     <base href="/">
 
@@ -46,6 +46,14 @@
             background: #f2f4f7;
 
             font-size: 2rem;
+
+            gap: 2rem;
+        }
+
+        h1 {
+            margin: 0;
+            font-weight: bold;
+            font-size: 3rem;
         }
 
         .brand {
@@ -89,30 +97,49 @@
 
         .coming-soon {
             font-size: 2rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
         }
 
         .link {
             text-decoration: none;
             font-size: 1.25rem;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            padding: 0.75rem 2rem;
+
+            color: white;
+            background: #FF1B1C;
         }
 
         .link,
         .link:link,
         .link:visited {
-            color: red;
+            color: white;
         }
 
-        .link:hover {
-            text-decoration: underline;
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            font-size: 0.8em;
+            margin: 0;
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        li {
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
 
 <body>
     <div class="brand">
-        <div class="xr1">XR-1</div>
+        <div class="xr1">XR_one</div>
         <div class="gamecloud">
             <div class="material-symbols-outlined">gamepad</div>
             <div>GameCloud</div>
@@ -122,6 +149,18 @@
     <div class="coming-soon">
         EMPOWERING GAMERS
     </div>
+
+    <h1>Feature Set</h1>
+
+    <ul>
+        <li>Event management</li>
+        <li>Crew management</li>
+        <li>Guest/attendee management</li>
+        <li>Guest/attendee portal</li>
+        <li>Seatmaps and seat picking</li>
+        <li>Ticket sales</li>
+        <li>Something missing? Send us an e-mail!</li>
+    </ul>
 
     <div class="contact">
         <a href="mailto:contact@xr1.se"
